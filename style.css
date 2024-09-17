@@ -1,0 +1,30 @@
+.diagnosis
+{
+    background-color:white;
+    padding:0.2rem;
+    border-radius:0.5rem;
+}
+
+.diagnosis.benign
+{
+    background-color:green;
+}
+
+.diagnosis.malicious
+{
+    background-color:red;
+}
+ .st-emotion-cache-j5r0tf
+ {
+    background-color: orangered;
+    padding: 2rem;
+    border-radius: 0.5rem;
+ }
+.st-emotion-cache-12w0qpk
+{
+    background-color: orangered;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+
