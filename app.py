@@ -146,7 +146,7 @@ def add_predections(input_data):
 
     
 def main():
-    st.set_page_config(page_title=" Breast Cancer Detection",
+    st.set_page_config(page_title="Cancer Detection",
                        page_icon=":female_doctor:",layout='wide',
                        initial_sidebar_state="expanded")
     
@@ -154,8 +154,8 @@ def main():
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
     with st.container():
-        st.title("Breast Cancer Detection") #H1
-        st.write("use this app to detect breast cancer in the tissue sample") #p
+        st.title("Cancer Detection") #H1
+        st.write("use this app to detect cancer in the tissue sample") #p
     
         input_dict=add_sidebar()
         col1,col2 =st.columns([3,1])
